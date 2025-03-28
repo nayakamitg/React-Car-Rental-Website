@@ -1,0 +1,102 @@
+.booking__form {
+  width: 47.5%;
+}
+
+.booking__form input {
+  padding: 8px 15px;
+  border: 1px solid #7c8a972a;
+  color: #7c8a97;
+  width: 100%;
+}
+
+.booking__form select,
+.textarea {
+  width: 100%;
+  padding: 10px 15px;
+  color: #7c8a97;
+  border: 1px solid #7c8a972a;
+  border-radius: 4px;
+}
+
+.time__picker::before {
+  content: "Journey Time";
+  color: #7c8a97;
+  margin-right: 0.5rem;
+}
+
+.textarea:focus,
+.booking__form input:focus,
+.booking__form select:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .booking__form {
+    width: 100%;
+  }
+
+  .booking__form input,
+  .textarea,
+  .booking__form select {
+    font-size: 0.8rem;
+  }
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-group {
+  position: relative;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background: #25D366;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #1eb14d;
+}
